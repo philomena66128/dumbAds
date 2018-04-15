@@ -1,0 +1,53 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main-page{
+  .header{
+    position: relative;
+    .header-img{
+      // overflow: hidden;
+      width: 80vw;
+    }
+    h1{
+      position: absolute;
+      top: 50px;
+      left: 70px;
+      color: #7b5aad;
+    }
+    h3{
+      position: absolute;
+      top: 100px;
+      left: 70px;
+      color: #7b5aad;
+    }
+  }
+  .profile-nav{
+    padding: 10px 0;
+    text-align: center;
+    div{
+      font-size: 20px;
+      display: inline-block;
+      padding: 0 30px;
+      a{
+        color: #7b5aad;
+      }
+    }
+  }
+
+  .main-content{
+    color: #7b5aad;
+    margin-top: 30px;
+    padding: 10px;
+    .section{
+      margin: 50px 0;
+    }
+    .massage-img{
+      width: 40vw;
+    }
+
+    .map-img{
+      width: 40vw;
+    }
+  }
+}
