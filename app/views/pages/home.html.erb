@@ -5,13 +5,13 @@
         <%= image_tag "massage_banner.jpg", class: "header-img"%>
         <h1>Annie's Amazing Massage</h1>
         <h3>Your Best Massage Therapist in Milwaukee</h3>
-        <div class="profile-nav">
+        <!-- <div class="profile-nav">
           <div class=""><a href="#about_me" class="profile-nav-item">About Me</a></div>
           <div class=""><a href="#what_i_offer" class="profile-nav-item">What I Offer</a></div>
           <div class=""><a href="#price_hour" class="profile-nav-item">Prices & Hours</a></div>
           <div class=""><a href="#location" class="profile-nav-item">Location</a></div>
           <div class=""><a href="#contact" class="profile-nav-item">Contact</a></div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -20,24 +20,55 @@
      <div class="col-md-5">
        <div class="section" id="about_me">
          <h3>About Me</h3>
-         <p> My name is Annie. I am a licensed professional Asian message therapist with experience in therapeutic and relaxation massage,
-           and can offer you a miraculous massage experience you won't forget;
+         <p> My name is Annie. I am a licensed professional Asian message therapist experienced in therapeutic and relaxation massage.
+             I will offer you a miraculous massage experience you will not forget.
          </p>
        </div>
-       <div class="section" id="what_i_offer">
-         <h3>What I Offer</h3>
-         <ul>
-           <li>A clean and relaxing room with a professional massage table.</li>
-           <li>Massage skills not only for stress relief, but also soreness and pain reduction.</li>
-         </ul>
+       <div class="section">
+          <%= image_tag "header.jpg", class: "massage-img"%>
        </div>
-       <%= image_tag "header.jpg", class: "massage-img"%>
+       <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <div class="d-block w-100" alt="First slide">
+               <p> slide1 </p>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <div class="d-block w-100" alt="Second slide">
+               <p> slide2 </p>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <div class="d-block w-100" alt="Third slide">
+               <p> slide3 </p>
+             </div>
+           </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="sr-only">Next</span>
+         </a>
+       </div>
+
+        <%= image_tag "massage_background2.jpeg", class: "massage_background"%> -->
+
      </div>
+
      <div class="col-md-1"></div>
      <div class="col-md-5">
        <div class="section" id="contact">
          <h3>Contact</h3>
-         <p>262-366-4465 (please contact by message)</p>
+         <p>262-366-4465 (Please message for appointment)</p>
        </div>
        <div class="section" id="price_hour">
          <h3>Prices</h3>
@@ -51,8 +82,16 @@
        <div class="section">
          <h3>Hours</h3>
          <p>Monday through Sunday, 7:00am - 9:00pm</p>
-         <p>Please call or text for appointment</p>
        </div>
+
+       <div class="section" id="what_i_offer">
+         <h3>Provide</h3>
+         <ul>
+           <li>A clean and relaxing room with a professional massage table.</li>
+           <li>Massage skills not only for stress relief, but also soreness and pain reduction.</li>
+         </ul>
+       </div>
+
        <div class="section" id="location">
          <h3>Location</h3>
          <p>West Allis Area</p>
@@ -60,4 +99,5 @@
        </div>
      </div>
   </div>
+
 </div>
